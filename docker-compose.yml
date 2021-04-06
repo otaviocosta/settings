@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  settings:
+    image: ${DOCKER_REGISTRY-}settings
+    build:
+      context: .
+      dockerfile: Settings/Dockerfile
+    environment:
+      #- Variaveis__Nivel1=${Variaveis__Nivel1:-Nivel1 - docker-compose}
+      #- Variaveis__Nivel2=${Variaveis__Nivel2:-Nivel2 - docker-compose}
+      #- Variaveis__Nivel3=${Variaveis__Nivel3:-Nivel3 - docker-compose}
+      - Variaveis__Nivel4=${Variaveis__Nivel4:-Nivel4 - docker-compose}
+      - Variaveis__Nivel5=${Variaveis__Nivel5:-Nivel5 - docker-compose}
+      - Variaveis__Nivel6=${Variaveis__Nivel6:-Nivel6 - docker-compose}
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  settings.console:
+    image: ${DOCKER_REGISTRY-}settingsconsole
+    build:
+      context: .
+      dockerfile: Settings.Console/Dockerfile
+    environment:
+      #- Variaveis__Nivel1=${Variaveis__Nivel1:-Nivel1 - docker-compose}
+      #- Variaveis__Nivel2=${Variaveis__Nivel2:-Nivel2 - docker-compose}
+      #- Variaveis__Nivel3=${Variaveis__Nivel3:-Nivel3 - docker-compose}
+      - Variaveis__Nivel4=${Variaveis__Nivel4:-Nivel4 - docker-compose}
+      - Variaveis__Nivel5=${Variaveis__Nivel5:-Nivel5 - docker-compose}
+      - Variaveis__Nivel6=${Variaveis__Nivel6:-Nivel6 - docker-compose}
+      - DOTNET_ENVIRONMENT=Development
+

@@ -1,0 +1,74 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:10643",
+      "sslPort": 44314
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        //"Variaveis__Nivel1": "Nivel1 - launchSettings.json IIS",
+        //"Variaveis__Nivel2": "Nivel2 - launchSettings.json IIS",
+        //"Variaveis__Nivel3": "Nivel3 - launchSettings.json IIS",
+        "Variaveis__Nivel4": "Nivel4 - launchSettings.json IIS",
+        "Variaveis__Nivel5": "Nivel5 - launchSettings.json IIS",
+        "Variaveis__Nivel6": "Nivel6 - launchSettings.json IIS",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Kestrel": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        //"Variaveis__Nivel1": "Nivel1 - launchSettings.json Kestrel",
+        //"Variaveis__Nivel2": "Nivel2 - launchSettings.json Kestrel",
+        //"Variaveis__Nivel3": "Nivel3 - launchSettings.json Kestrel",
+        "Variaveis__Nivel4": "Nivel4 - launchSettings.json Kestrel",
+        "Variaveis__Nivel5": "Nivel5 - launchSettings.json Kestrel",
+        "Variaveis__Nivel6": "Nivel6 - launchSettings.json Kestrel",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "environmentVariables": {
+        //"Variaveis__Nivel1": "Nivel1 - launchSettings.json Docker",
+        //"Variaveis__Nivel2": "Nivel2 - launchSettings.json Docker",
+        //"Variaveis__Nivel3": "Nivel3 - launchSettings.json Docker",
+        "Variaveis__Nivel4": "Nivel4 - launchSettings.json Docker",
+        "Variaveis__Nivel5": "Nivel5 - launchSettings.json Docker",
+        "Variaveis__Nivel6": "Nivel6 - launchSettings.json Docker"
+      },
+      "publishAllPorts": true,
+      "useSSL": true
+    },
+    "WSL 2": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:5001/swagger",
+      "environmentVariables": {
+        //"Variaveis__Nivel1": "Nivel1 - launchSettings.json WSL 2",
+        //"Variaveis__Nivel2": "Nivel2 - launchSettings.json WSL 2",
+        //"Variaveis__Nivel3": "Nivel3 - launchSettings.json WSL 2",
+        "Variaveis__Nivel4": "Nivel4 - launchSettings.json WSL 2",
+        "Variaveis__Nivel5": "Nivel5 - launchSettings.json WSL 2",
+        "Variaveis__Nivel6": "Nivel6 - launchSettings.json WSL 2",
+        "ASPNETCORE_URLS": "https://localhost:5001;http://localhost:5000",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "distributionName": ""
+    }
+  }
+}

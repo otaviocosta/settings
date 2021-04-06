@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "Settings.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "Variaveis:Nivel6=\"Nivel6 - args\"",
+      "environmentVariables": {
+        "Variaveis__Nivel5": "Nivel5 - launchSettings.json Console",
+        "Variaveis__Nivel6": "Nivel6 - launchSettings.json Console",
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "environmentVariables": {
+        //"Variaveis__Nivel1": "Nivel1 - launchSettings.json Docker",
+        //"Variaveis__Nivel2": "Nivel2 - launchSettings.json Docker",
+        //"Variaveis__Nivel3": "Nivel3 - launchSettings.json Docker",
+        "Variaveis__Nivel4": "Nivel4 - launchSettings.json Docker",
+        "Variaveis__Nivel5": "Nivel5 - launchSettings.json Docker",
+        "Variaveis__Nivel6": "Nivel6 - launchSettings.json Docker",
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
